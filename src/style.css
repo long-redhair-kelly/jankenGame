@@ -1,0 +1,19 @@
+li {
+  list-style: none;
+}
+.wrap {
+  width: 300px;
+  margin: 0 auto;
+}
+.myHand {
+  margin-top: 20px;
+}
+.win {
+  color: blue;
+}
+.lose {
+  color: red;
+}
+.draw {
+  color: green;
+}
