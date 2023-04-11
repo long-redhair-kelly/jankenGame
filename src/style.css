@@ -17,3 +17,11 @@ li {
 .draw {
   color: green;
 }
+.judgeWrapper {
+  display: flex;
+}
+
+.judgeWrapper button {
+  flex: 1;
+  margin: auto 10px;
+}
