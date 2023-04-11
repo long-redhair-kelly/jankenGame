@@ -57,9 +57,11 @@ export default {
     <h2>じゃんけん</h2>
     <p>{{ turn }}回目のじゃんけん</p>
     <p>あなたの手を選んでください</p>
-    <button @click="judge('ぐー')">ぐー</button>
-    <button @click="judge('ちょき')">ちょき</button>
-    <button @click="judge('ぱー')">ぱー</button>
+    <div class="judgeWrapper">
+      <button @click="judge('ぐー')">ぐー</button>
+      <button @click="judge('ちょき')">ちょき</button>
+      <button @click="judge('ぱー')">ぱー</button>
+    </div>
     <div>
       <p>あなたの手は: {{ myHand }} でした</p>
       <p>相手の手は: {{ enemyHand }} でした</p>
